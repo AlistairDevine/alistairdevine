@@ -37,6 +37,7 @@
 
 .nav-options {
     display: inline-flex;
+    padding: 0;
 }
 
 .nav-item {
@@ -47,12 +48,12 @@
     height: 32px;
     padding: 0px 16px;
     transition: opacity 0.3s ease 0s;
-    color: rgb(13, 17, 23);
+    opacity: 1;
 }
 
     .nav-item:hover {
-        opacity: 0.5;
         cursor: pointer;
+        opacity: 0.5;
     }
 
 /* Contact CSS */
