@@ -100,3 +100,20 @@ h1:focus {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+/* Header Layout CSS */
+.nav-link {
+    text-decoration: none;
+    color: rgb(13, 17, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    height: 32px;
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
