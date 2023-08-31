@@ -1,1 +1,28 @@
-﻿
+﻿.page-container {
+    height: 100%;
+}
+.grid-container {
+    height: 100%;
+    position: relative;
+    margin: -16px auto 0px;
+    padding-bottom: 80px;
+}
+
+/* Desktop CSS */
+@media (width > 1200px)
+{
+
+}
+
+/* Tablet CSS */
+@media (width >= 800px) and (width <= 1200px)
+{
+
+}
+
+/* Mobile CSS */
+@media (width < 800px)
+{
+
+}
+
