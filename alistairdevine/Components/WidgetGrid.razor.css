@@ -17,7 +17,9 @@
 /* Tablet CSS */
 @media (width >= 800px) and (width <= 1200px)
 {
-
+    .grid-container {
+        max-width: 800px;
+    }
 }
 
 /* Mobile CSS */
