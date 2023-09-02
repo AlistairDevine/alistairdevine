@@ -11,18 +11,24 @@
 /* Desktop CSS */
 @media (width > 1200px)
 {
-
+    .grid-container {
+        max-width: 1200px;
+    }
 }
 
 /* Tablet CSS */
 @media (width >= 800px) and (width <= 1200px)
 {
-
+    .grid-container {
+        max-width: 800px;
+    }
 }
 
 /* Mobile CSS */
 @media (width < 800px)
 {
-
+    .grid-container {
+        max-width: 375px;
+    }
 }
 

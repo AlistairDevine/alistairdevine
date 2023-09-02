@@ -1,0 +1,69 @@
+﻿.widget-container {
+    width: 376px;
+    height: 376px;
+}
+
+.intro-container {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-evenly;
+    padding: 36px 42px;
+    border-radius: 32px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 2px inset;
+}
+
+.intro-image {
+    width: auto;
+    height: 136px;
+}
+
+.intro-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: rgb(13, 17, 23);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.special-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+}
+
+.toggle-btn {
+    box-shadow: rgb(240, 242, 248) 0px 0px 0px 2px;
+    position: absolute;
+    height: 36px;
+    padding: 0px 12px;
+    top: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 18px;
+    background: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: all 0.2s ease-out 0s;
+    will-change: box-shadow, transform;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.toggle-btn:hover {
+    border-radius: 9px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-out 0s;
+    box-shadow: rgb(240, 242, 248) 0px 0px 0px 5px;
+}
+
+.toggle-icon {
+    padding-right: 5px;
+}
